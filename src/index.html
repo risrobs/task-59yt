@@ -1,15 +1,17 @@
 <html>
 <head>
-<style> 
 
-@media only screen and (max-width: 600px) {
- .hide-mobile 
- {display:none;}
-}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	@media only screen and (min-width: 600px) {
+	  .hide-pc {
+		display:none;
+	  }
+	}
 </style>
 </head>
 <body>
-<h3>This is an example only.</h3>
-<p class="hide-mobile">This text should be displayed on your PC or screen size larger than 600px. If yo use your mobile device or screen size smaller than 600px then you won't see this text.</p>
+<h3>This is how to hide element on PC but show it on Mobile.</h3>
+<p class="hide-pc">This text should be displayed on your PC or screen size larger than 600px. If yo use your mobile device or screen size smaller than 600px then you won't see this text.</p>
 </body>
 </html>

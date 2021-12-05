@@ -18,17 +18,8 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: $background;
 }
-
- .custom-size{
-    height:150px;
-    width:600px;  
-    border: 1px solid red;
- }
-
- #coupon-container:hover   div[id^='coupon']:not(:hover) {
-     display: none;  
- }
-@media only screen and (max-width: 600px) {
- .hide-mobile 
- {display:none;}
-}
+@media only screen and (min-width: 600px) {
+	  .hide-pc {
+		display:none;
+	  }
+	}
