@@ -19,11 +19,12 @@ html {
   background: $background;
 }
 
-.main {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
-}
+ .custom-size{
+    height:150px;
+    width:600px;  
+    border: 1px solid red;
+ }
+
+ #coupon-container:hover   div[id^='coupon']:not(:hover) {
+     display: none;  
+ }
