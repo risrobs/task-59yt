@@ -28,3 +28,7 @@ html {
  #coupon-container:hover   div[id^='coupon']:not(:hover) {
      display: none;  
  }
+@media only screen and (max-width: 600px) {
+ .hide-mobile 
+ {display:none;}
+}
